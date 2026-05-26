@@ -1,0 +1,767 @@
+{
+  "taskCount": 10,
+  "optionCount": 5,
+  "examplesPerClass": 5,
+  "tasks": [
+    {
+      "index": 0,
+      "species": "dog",
+      "image": "images/n02113799/n02113799_2.JPEG",
+      "truth": "n02113799",
+      "options": [
+        {
+          "wnid": "n02099712",
+          "label": "Labrador retriever",
+          "examples": [
+            "images/n02099712/n02099712_121.JPEG",
+            "images/n02099712/n02099712_96.JPEG",
+            "images/n02099712/n02099712_302.JPEG",
+            "images/n02099712/n02099712_149.JPEG",
+            "images/n02099712/n02099712_131.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02099601",
+          "label": "Golden retriever",
+          "examples": [
+            "images/n02099601/n02099601_395.JPEG",
+            "images/n02099601/n02099601_474.JPEG",
+            "images/n02099601/n02099601_182.JPEG",
+            "images/n02099601/n02099601_304.JPEG",
+            "images/n02099601/n02099601_309.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02094433",
+          "label": "Yorkshire terrier",
+          "examples": [
+            "images/n02094433/n02094433_399.JPEG",
+            "images/n02094433/n02094433_429.JPEG",
+            "images/n02094433/n02094433_62.JPEG",
+            "images/n02094433/n02094433_401.JPEG",
+            "images/n02094433/n02094433_116.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02106662",
+          "label": "German shepherd",
+          "examples": [
+            "images/n02106662/n02106662_470.JPEG",
+            "images/n02106662/n02106662_56.JPEG",
+            "images/n02106662/n02106662_31.JPEG",
+            "images/n02106662/n02106662_7.JPEG",
+            "images/n02106662/n02106662_151.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02113799",
+          "label": "Standard poodle",
+          "examples": [
+            "images/n02113799/n02113799_470.JPEG",
+            "images/n02113799/n02113799_150.JPEG",
+            "images/n02113799/n02113799_345.JPEG",
+            "images/n02113799/n02113799_323.JPEG",
+            "images/n02113799/n02113799_159.JPEG"
+          ]
+        }
+      ],
+      "ai": {
+        "choice": "n02094433",
+        "confidence": 0.006750020664185286,
+        "scores": {
+          "n02099712": 0.0008019643719308078,
+          "n02099601": 0.0038804272189736366,
+          "n02094433": 0.006750020664185286,
+          "n02106662": 9.771053009899333e-05,
+          "n02113799": 0.006595483515411615
+        },
+        "topImagenetLabel": "fox squirrel",
+        "topImagenetConfidence": 0.12427857518196106
+      }
+    },
+    {
+      "index": 1,
+      "species": "cat",
+      "image": "images/n02123394/n02123394_227.JPEG",
+      "truth": "n02123394",
+      "options": [
+        {
+          "wnid": "n02123394",
+          "label": "Persian cat",
+          "examples": [
+            "images/n02123394/n02123394_278.JPEG",
+            "images/n02123394/n02123394_440.JPEG",
+            "images/n02123394/n02123394_362.JPEG",
+            "images/n02123394/n02123394_80.JPEG",
+            "images/n02123394/n02123394_456.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02123045",
+          "label": "Tabby",
+          "examples": [
+            "images/n02123045/n02123045_32.JPEG",
+            "images/n02123045/n02123045_205.JPEG",
+            "images/n02123045/n02123045_420.JPEG",
+            "images/n02123045/n02123045_381.JPEG",
+            "images/n02123045/n02123045_136.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02125311",
+          "label": "Cougar",
+          "examples": [
+            "images/n02125311/n02125311_245.JPEG",
+            "images/n02125311/n02125311_494.JPEG",
+            "images/n02125311/n02125311_495.JPEG",
+            "images/n02125311/n02125311_244.JPEG",
+            "images/n02125311/n02125311_240.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02129165",
+          "label": "Lion",
+          "examples": [
+            "images/n02129165/n02129165_221.JPEG",
+            "images/n02129165/n02129165_324.JPEG",
+            "images/n02129165/n02129165_313.JPEG",
+            "images/n02129165/n02129165_213.JPEG",
+            "images/n02129165/n02129165_210.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02124075",
+          "label": "Egyptian cat",
+          "examples": [
+            "images/n02124075/n02124075_13.JPEG",
+            "images/n02124075/n02124075_177.JPEG",
+            "images/n02124075/n02124075_84.JPEG",
+            "images/n02124075/n02124075_329.JPEG",
+            "images/n02124075/n02124075_61.JPEG"
+          ]
+        }
+      ],
+      "ai": {
+        "choice": "n02123394",
+        "confidence": 0.07944842427968979,
+        "scores": {
+          "n02123394": 0.07944842427968979,
+          "n02123045": 0.00200217729434371,
+          "n02125311": 4.222176721668802e-05,
+          "n02129165": 0.00017984537407755852,
+          "n02124075": 0.0012715463526546955
+        },
+        "topImagenetLabel": "Japanese spaniel",
+        "topImagenetConfidence": 0.7559388875961304
+      }
+    },
+    {
+      "index": 2,
+      "species": "dog",
+      "image": "images/n02099601/n02099601_41.JPEG",
+      "truth": "n02099601",
+      "options": [
+        {
+          "wnid": "n02085620",
+          "label": "Chihuahua",
+          "examples": [
+            "images/n02085620/n02085620_263.JPEG",
+            "images/n02085620/n02085620_402.JPEG",
+            "images/n02085620/n02085620_227.JPEG",
+            "images/n02085620/n02085620_65.JPEG",
+            "images/n02085620/n02085620_433.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02113799",
+          "label": "Standard poodle",
+          "examples": [
+            "images/n02113799/n02113799_161.JPEG",
+            "images/n02113799/n02113799_472.JPEG",
+            "images/n02113799/n02113799_253.JPEG",
+            "images/n02113799/n02113799_480.JPEG",
+            "images/n02113799/n02113799_70.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02106662",
+          "label": "German shepherd",
+          "examples": [
+            "images/n02106662/n02106662_99.JPEG",
+            "images/n02106662/n02106662_345.JPEG",
+            "images/n02106662/n02106662_467.JPEG",
+            "images/n02106662/n02106662_120.JPEG",
+            "images/n02106662/n02106662_114.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02099712",
+          "label": "Labrador retriever",
+          "examples": [
+            "images/n02099712/n02099712_434.JPEG",
+            "images/n02099712/n02099712_6.JPEG",
+            "images/n02099712/n02099712_446.JPEG",
+            "images/n02099712/n02099712_242.JPEG",
+            "images/n02099712/n02099712_371.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02099601",
+          "label": "Golden retriever",
+          "examples": [
+            "images/n02099601/n02099601_82.JPEG",
+            "images/n02099601/n02099601_318.JPEG",
+            "images/n02099601/n02099601_286.JPEG",
+            "images/n02099601/n02099601_235.JPEG",
+            "images/n02099601/n02099601_185.JPEG"
+          ]
+        }
+      ],
+      "ai": {
+        "choice": "n02099601",
+        "confidence": 0.46584227681159973,
+        "scores": {
+          "n02085620": 0.0003944842319469899,
+          "n02113799": 0.002180019160732627,
+          "n02106662": 0.00045477357343770564,
+          "n02099712": 0.09386059641838074,
+          "n02099601": 0.46584227681159973
+        },
+        "topImagenetLabel": "golden retriever",
+        "topImagenetConfidence": 0.46584227681159973
+      }
+    },
+    {
+      "index": 3,
+      "species": "cat",
+      "image": "images/n02125311/n02125311_94.JPEG",
+      "truth": "n02125311",
+      "options": [
+        {
+          "wnid": "n02123045",
+          "label": "Tabby",
+          "examples": [
+            "images/n02123045/n02123045_383.JPEG",
+            "images/n02123045/n02123045_439.JPEG",
+            "images/n02123045/n02123045_177.JPEG",
+            "images/n02123045/n02123045_365.JPEG",
+            "images/n02123045/n02123045_91.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02124075",
+          "label": "Egyptian cat",
+          "examples": [
+            "images/n02124075/n02124075_440.JPEG",
+            "images/n02124075/n02124075_273.JPEG",
+            "images/n02124075/n02124075_99.JPEG",
+            "images/n02124075/n02124075_182.JPEG",
+            "images/n02124075/n02124075_87.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02129165",
+          "label": "Lion",
+          "examples": [
+            "images/n02129165/n02129165_230.JPEG",
+            "images/n02129165/n02129165_269.JPEG",
+            "images/n02129165/n02129165_263.JPEG",
+            "images/n02129165/n02129165_39.JPEG",
+            "images/n02129165/n02129165_286.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02123394",
+          "label": "Persian cat",
+          "examples": [
+            "images/n02123394/n02123394_267.JPEG",
+            "images/n02123394/n02123394_20.JPEG",
+            "images/n02123394/n02123394_157.JPEG",
+            "images/n02123394/n02123394_195.JPEG",
+            "images/n02123394/n02123394_368.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02125311",
+          "label": "Cougar",
+          "examples": [
+            "images/n02125311/n02125311_45.JPEG",
+            "images/n02125311/n02125311_32.JPEG",
+            "images/n02125311/n02125311_276.JPEG",
+            "images/n02125311/n02125311_367.JPEG",
+            "images/n02125311/n02125311_120.JPEG"
+          ]
+        }
+      ],
+      "ai": {
+        "choice": "n02125311",
+        "confidence": 0.7432172298431396,
+        "scores": {
+          "n02123045": 0.00042940679122693837,
+          "n02124075": 0.0008208603248931468,
+          "n02129165": 0.029245968908071518,
+          "n02123394": 0.00048188751679845154,
+          "n02125311": 0.7432172298431396
+        },
+        "topImagenetLabel": "cougar",
+        "topImagenetConfidence": 0.7432172298431396
+      }
+    },
+    {
+      "index": 4,
+      "species": "dog",
+      "image": "images/n02099712/n02099712_401.JPEG",
+      "truth": "n02099712",
+      "options": [
+        {
+          "wnid": "n02106662",
+          "label": "German shepherd",
+          "examples": [
+            "images/n02106662/n02106662_186.JPEG",
+            "images/n02106662/n02106662_336.JPEG",
+            "images/n02106662/n02106662_124.JPEG",
+            "images/n02106662/n02106662_481.JPEG",
+            "images/n02106662/n02106662_358.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02099712",
+          "label": "Labrador retriever",
+          "examples": [
+            "images/n02099712/n02099712_191.JPEG",
+            "images/n02099712/n02099712_226.JPEG",
+            "images/n02099712/n02099712_368.JPEG",
+            "images/n02099712/n02099712_185.JPEG",
+            "images/n02099712/n02099712_333.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02113799",
+          "label": "Standard poodle",
+          "examples": [
+            "images/n02113799/n02113799_202.JPEG",
+            "images/n02113799/n02113799_418.JPEG",
+            "images/n02113799/n02113799_357.JPEG",
+            "images/n02113799/n02113799_487.JPEG",
+            "images/n02113799/n02113799_199.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02085620",
+          "label": "Chihuahua",
+          "examples": [
+            "images/n02085620/n02085620_392.JPEG",
+            "images/n02085620/n02085620_395.JPEG",
+            "images/n02085620/n02085620_403.JPEG",
+            "images/n02085620/n02085620_167.JPEG",
+            "images/n02085620/n02085620_229.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02094433",
+          "label": "Yorkshire terrier",
+          "examples": [
+            "images/n02094433/n02094433_449.JPEG",
+            "images/n02094433/n02094433_215.JPEG",
+            "images/n02094433/n02094433_226.JPEG",
+            "images/n02094433/n02094433_248.JPEG",
+            "images/n02094433/n02094433_304.JPEG"
+          ]
+        }
+      ],
+      "ai": {
+        "choice": "n02099712",
+        "confidence": 0.36885109543800354,
+        "scores": {
+          "n02106662": 0.0003303870907984674,
+          "n02099712": 0.36885109543800354,
+          "n02113799": 0.0034898745361715555,
+          "n02085620": 0.00020017341012135148,
+          "n02094433": 0.00013463117647916079
+        },
+        "topImagenetLabel": "Labrador retriever",
+        "topImagenetConfidence": 0.36885109543800354
+      }
+    },
+    {
+      "index": 5,
+      "species": "cat",
+      "image": "images/n02124075/n02124075_136.JPEG",
+      "truth": "n02124075",
+      "options": [
+        {
+          "wnid": "n02124075",
+          "label": "Egyptian cat",
+          "examples": [
+            "images/n02124075/n02124075_353.JPEG",
+            "images/n02124075/n02124075_460.JPEG",
+            "images/n02124075/n02124075_345.JPEG",
+            "images/n02124075/n02124075_452.JPEG",
+            "images/n02124075/n02124075_274.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02123045",
+          "label": "Tabby",
+          "examples": [
+            "images/n02123045/n02123045_493.JPEG",
+            "images/n02123045/n02123045_123.JPEG",
+            "images/n02123045/n02123045_43.JPEG",
+            "images/n02123045/n02123045_309.JPEG",
+            "images/n02123045/n02123045_465.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02129165",
+          "label": "Lion",
+          "examples": [
+            "images/n02129165/n02129165_246.JPEG",
+            "images/n02129165/n02129165_110.JPEG",
+            "images/n02129165/n02129165_476.JPEG",
+            "images/n02129165/n02129165_214.JPEG",
+            "images/n02129165/n02129165_238.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02123394",
+          "label": "Persian cat",
+          "examples": [
+            "images/n02123394/n02123394_87.JPEG",
+            "images/n02123394/n02123394_85.JPEG",
+            "images/n02123394/n02123394_95.JPEG",
+            "images/n02123394/n02123394_187.JPEG",
+            "images/n02123394/n02123394_441.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02125311",
+          "label": "Cougar",
+          "examples": [
+            "images/n02125311/n02125311_414.JPEG",
+            "images/n02125311/n02125311_385.JPEG",
+            "images/n02125311/n02125311_79.JPEG",
+            "images/n02125311/n02125311_117.JPEG",
+            "images/n02125311/n02125311_339.JPEG"
+          ]
+        }
+      ],
+      "ai": {
+        "choice": "n02124075",
+        "confidence": 0.2910389006137848,
+        "scores": {
+          "n02124075": 0.2910389006137848,
+          "n02123045": 0.0026193561498075724,
+          "n02129165": 0.0009258039062842727,
+          "n02123394": 0.0007251885253936052,
+          "n02125311": 0.0009213404846377671
+        },
+        "topImagenetLabel": "Egyptian cat",
+        "topImagenetConfidence": 0.2910389006137848
+      }
+    },
+    {
+      "index": 6,
+      "species": "dog",
+      "image": "images/n02106662/n02106662_421.JPEG",
+      "truth": "n02106662",
+      "options": [
+        {
+          "wnid": "n02085620",
+          "label": "Chihuahua",
+          "examples": [
+            "images/n02085620/n02085620_367.JPEG",
+            "images/n02085620/n02085620_164.JPEG",
+            "images/n02085620/n02085620_393.JPEG",
+            "images/n02085620/n02085620_19.JPEG",
+            "images/n02085620/n02085620_224.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02094433",
+          "label": "Yorkshire terrier",
+          "examples": [
+            "images/n02094433/n02094433_499.JPEG",
+            "images/n02094433/n02094433_281.JPEG",
+            "images/n02094433/n02094433_189.JPEG",
+            "images/n02094433/n02094433_169.JPEG",
+            "images/n02094433/n02094433_387.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02106662",
+          "label": "German shepherd",
+          "examples": [
+            "images/n02106662/n02106662_379.JPEG",
+            "images/n02106662/n02106662_38.JPEG",
+            "images/n02106662/n02106662_49.JPEG",
+            "images/n02106662/n02106662_124.JPEG",
+            "images/n02106662/n02106662_122.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02099601",
+          "label": "Golden retriever",
+          "examples": [
+            "images/n02099601/n02099601_395.JPEG",
+            "images/n02099601/n02099601_22.JPEG",
+            "images/n02099601/n02099601_302.JPEG",
+            "images/n02099601/n02099601_200.JPEG",
+            "images/n02099601/n02099601_435.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02113799",
+          "label": "Standard poodle",
+          "examples": [
+            "images/n02113799/n02113799_291.JPEG",
+            "images/n02113799/n02113799_404.JPEG",
+            "images/n02113799/n02113799_28.JPEG",
+            "images/n02113799/n02113799_150.JPEG",
+            "images/n02113799/n02113799_102.JPEG"
+          ]
+        }
+      ],
+      "ai": {
+        "choice": "n02106662",
+        "confidence": 0.1892247498035431,
+        "scores": {
+          "n02085620": 0.0011435826309025288,
+          "n02094433": 0.0028563011437654495,
+          "n02106662": 0.1892247498035431,
+          "n02099601": 0.0006944009219296277,
+          "n02113799": 0.0009373282082378864
+        },
+        "topImagenetLabel": "German shepherd",
+        "topImagenetConfidence": 0.1892247498035431
+      }
+    },
+    {
+      "index": 7,
+      "species": "cat",
+      "image": "images/n02123045/n02123045_187.JPEG",
+      "truth": "n02123045",
+      "options": [
+        {
+          "wnid": "n02123394",
+          "label": "Persian cat",
+          "examples": [
+            "images/n02123394/n02123394_319.JPEG",
+            "images/n02123394/n02123394_227.JPEG",
+            "images/n02123394/n02123394_283.JPEG",
+            "images/n02123394/n02123394_0.JPEG",
+            "images/n02123394/n02123394_307.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02123045",
+          "label": "Tabby",
+          "examples": [
+            "images/n02123045/n02123045_298.JPEG",
+            "images/n02123045/n02123045_76.JPEG",
+            "images/n02123045/n02123045_444.JPEG",
+            "images/n02123045/n02123045_456.JPEG",
+            "images/n02123045/n02123045_266.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02124075",
+          "label": "Egyptian cat",
+          "examples": [
+            "images/n02124075/n02124075_217.JPEG",
+            "images/n02124075/n02124075_119.JPEG",
+            "images/n02124075/n02124075_279.JPEG",
+            "images/n02124075/n02124075_440.JPEG",
+            "images/n02124075/n02124075_100.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02125311",
+          "label": "Cougar",
+          "examples": [
+            "images/n02125311/n02125311_347.JPEG",
+            "images/n02125311/n02125311_15.JPEG",
+            "images/n02125311/n02125311_9.JPEG",
+            "images/n02125311/n02125311_259.JPEG",
+            "images/n02125311/n02125311_16.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02129165",
+          "label": "Lion",
+          "examples": [
+            "images/n02129165/n02129165_297.JPEG",
+            "images/n02129165/n02129165_78.JPEG",
+            "images/n02129165/n02129165_166.JPEG",
+            "images/n02129165/n02129165_244.JPEG",
+            "images/n02129165/n02129165_358.JPEG"
+          ]
+        }
+      ],
+      "ai": {
+        "choice": "n02123045",
+        "confidence": 0.06475506722927094,
+        "scores": {
+          "n02123394": 0.0030355029739439487,
+          "n02123045": 0.06475506722927094,
+          "n02124075": 0.02206137403845787,
+          "n02125311": 0.0028136041946709156,
+          "n02129165": 0.003487525973469019
+        },
+        "topImagenetLabel": "fox squirrel",
+        "topImagenetConfidence": 0.15763741731643677
+      }
+    },
+    {
+      "index": 8,
+      "species": "dog",
+      "image": "images/n02094433/n02094433_82.JPEG",
+      "truth": "n02094433",
+      "options": [
+        {
+          "wnid": "n02085620",
+          "label": "Chihuahua",
+          "examples": [
+            "images/n02085620/n02085620_203.JPEG",
+            "images/n02085620/n02085620_177.JPEG",
+            "images/n02085620/n02085620_26.JPEG",
+            "images/n02085620/n02085620_438.JPEG",
+            "images/n02085620/n02085620_369.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02094433",
+          "label": "Yorkshire terrier",
+          "examples": [
+            "images/n02094433/n02094433_442.JPEG",
+            "images/n02094433/n02094433_353.JPEG",
+            "images/n02094433/n02094433_381.JPEG",
+            "images/n02094433/n02094433_256.JPEG",
+            "images/n02094433/n02094433_314.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02099712",
+          "label": "Labrador retriever",
+          "examples": [
+            "images/n02099712/n02099712_64.JPEG",
+            "images/n02099712/n02099712_440.JPEG",
+            "images/n02099712/n02099712_359.JPEG",
+            "images/n02099712/n02099712_155.JPEG",
+            "images/n02099712/n02099712_3.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02106662",
+          "label": "German shepherd",
+          "examples": [
+            "images/n02106662/n02106662_409.JPEG",
+            "images/n02106662/n02106662_423.JPEG",
+            "images/n02106662/n02106662_451.JPEG",
+            "images/n02106662/n02106662_346.JPEG",
+            "images/n02106662/n02106662_196.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02099601",
+          "label": "Golden retriever",
+          "examples": [
+            "images/n02099601/n02099601_451.JPEG",
+            "images/n02099601/n02099601_270.JPEG",
+            "images/n02099601/n02099601_159.JPEG",
+            "images/n02099601/n02099601_349.JPEG",
+            "images/n02099601/n02099601_476.JPEG"
+          ]
+        }
+      ],
+      "ai": {
+        "choice": "n02094433",
+        "confidence": 0.612932026386261,
+        "scores": {
+          "n02085620": 0.0053018974140286446,
+          "n02094433": 0.612932026386261,
+          "n02099712": 1.6188396330107935e-05,
+          "n02106662": 0.00022450950928032398,
+          "n02099601": 2.599374420242384e-05
+        },
+        "topImagenetLabel": "Yorkshire terrier",
+        "topImagenetConfidence": 0.612932026386261
+      }
+    },
+    {
+      "index": 9,
+      "species": "cat",
+      "image": "images/n02129165/n02129165_98.JPEG",
+      "truth": "n02129165",
+      "options": [
+        {
+          "wnid": "n02124075",
+          "label": "Egyptian cat",
+          "examples": [
+            "images/n02124075/n02124075_401.JPEG",
+            "images/n02124075/n02124075_339.JPEG",
+            "images/n02124075/n02124075_192.JPEG",
+            "images/n02124075/n02124075_457.JPEG",
+            "images/n02124075/n02124075_472.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02129165",
+          "label": "Lion",
+          "examples": [
+            "images/n02129165/n02129165_206.JPEG",
+            "images/n02129165/n02129165_172.JPEG",
+            "images/n02129165/n02129165_262.JPEG",
+            "images/n02129165/n02129165_448.JPEG",
+            "images/n02129165/n02129165_56.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02123045",
+          "label": "Tabby",
+          "examples": [
+            "images/n02123045/n02123045_234.JPEG",
+            "images/n02123045/n02123045_307.JPEG",
+            "images/n02123045/n02123045_433.JPEG",
+            "images/n02123045/n02123045_238.JPEG",
+            "images/n02123045/n02123045_327.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02123394",
+          "label": "Persian cat",
+          "examples": [
+            "images/n02123394/n02123394_471.JPEG",
+            "images/n02123394/n02123394_474.JPEG",
+            "images/n02123394/n02123394_303.JPEG",
+            "images/n02123394/n02123394_460.JPEG",
+            "images/n02123394/n02123394_217.JPEG"
+          ]
+        },
+        {
+          "wnid": "n02125311",
+          "label": "Cougar",
+          "examples": [
+            "images/n02125311/n02125311_33.JPEG",
+            "images/n02125311/n02125311_327.JPEG",
+            "images/n02125311/n02125311_158.JPEG",
+            "images/n02125311/n02125311_486.JPEG",
+            "images/n02125311/n02125311_324.JPEG"
+          ]
+        }
+      ],
+      "ai": {
+        "choice": "n02129165",
+        "confidence": 0.7762552499771118,
+        "scores": {
+          "n02124075": 0.00017284003843087703,
+          "n02129165": 0.7762552499771118,
+          "n02123045": 0.00014872442989144474,
+          "n02123394": 0.0006338855600915849,
+          "n02125311": 0.0008387882262468338
+        },
+        "topImagenetLabel": "lion",
+        "topImagenetConfidence": 0.7762552499771118
+      }
+    }
+  ]
+}

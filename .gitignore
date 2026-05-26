@@ -1,0 +1,8 @@
+.DS_Store
+__pycache__/
+.pytest_cache/
+.deps/
+.torch-cache/
+tiny-imagenet-200/
+tiny-image-net/
+*.pdf
